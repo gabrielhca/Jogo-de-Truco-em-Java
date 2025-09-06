@@ -1,4 +1,4 @@
-package baralho;
+package pack;
 
 public class Manilhas extends Cartas{
     private final ValorManilha valor;

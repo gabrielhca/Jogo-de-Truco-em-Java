@@ -1,10 +1,10 @@
-package baralho;
+package pack;
 
 public class CartasSimples extends Cartas{
     private final ValorSimples valor;
 
-    public CartasSimples(Naipe napie, ValorSimples valor) {
-        super(napie, valor.getValorNominal());
+    public CartasSimples(Naipe naipe, ValorSimples valor) {
+        super(naipe, valor.getValorNominal());
         this.valor = valor;
     }
 

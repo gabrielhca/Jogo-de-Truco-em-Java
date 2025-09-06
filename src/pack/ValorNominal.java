@@ -1,4 +1,4 @@
-package baralho;
+package pack;
 
 public enum ValorNominal {
     AS,

@@ -1,7 +1,6 @@
-package baralho;
+package pack;
 
 public class Cartas {
-    // contrato
     private Naipe naipe;
     private ValorNominal valorNominal;
 
