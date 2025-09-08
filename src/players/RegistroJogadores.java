@@ -26,8 +26,7 @@ public class RegistroJogadores {
     }
 
     public Jogador encontrarJogador(String nome) {
-        for (int i = 0; i < listaDeJogadores.size(); i++) {
-            Jogador jogador = listaDeJogadores.get(i);
+        for (Jogador jogador : listaDeJogadores) {
             // equalsIgnoreCase permite comparar duas strings
             // ignorando se as letras são maiusculas ou minusculas
             if (jogador.getNome().equalsIgnoreCase(nome)) {
